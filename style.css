@@ -59,7 +59,38 @@ main {
 #about {
     background-color: #ffd4b680;
     padding: 20px 0 30px 0;
-    margin: 20px 0;
+    margin: 20px 0; 
+    border-top: hsl(0, 0%, 83%, .5) solid 2px;
+    border-bottom: hsl(0, 0%, 83%, .5) solid 2px;
+}
+
+.portfolio {
+    padding: 20px 0 30px 0;
+    border-bottom: hsl(0, 0%, 83%, .5) solid 2px;
+}
+
+h3 {
+    border-bottom: 2px solid hsl(0, 0%, 83%, .8);
+}
+
+.image-caption {
+    font-style: italic;
+    font-size: .8em;
+    text-align: center;
+}
+
+section p a {
+    color: rgb(101, 132, 189);
+    text-decoration: none;
+}
+
+section p a:hover {
+    color: rgb(179, 95, 151);
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
 }
 
 #contact img {
