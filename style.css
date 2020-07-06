@@ -47,6 +47,11 @@ header nav ul li a {
 header nav ul li:last-child a {
     margin-right: 0;
 }
+
+header nav ul li a:visited {
+    color: #ffcdb2;
+}
+
 /* main */ 
 main {
     padding-bottom: 20px;
@@ -90,12 +95,16 @@ section p a:hover {
 }
 
 a:visited {
-    color: purple;
+    color: #b5838d;
 }
 
 #contact img {
     width: 100%;
 }
+
+/*.center {
+    text-align: center;
+}*/
 
 /* ---  Contact Form Design --- */
 
@@ -125,7 +134,7 @@ iframe {
 
 /* footer */
 footer {
-    background-color: lightpink;
+    background-color: #e5989b;
     padding: 20px 0;
 }
 footer p {
