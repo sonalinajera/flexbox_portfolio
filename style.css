@@ -39,6 +39,8 @@ header nav ul {
 
 header nav ul li a {
     color: linen;
+    background-color: #b5838d;
+    border-radius: 3px;
     text-decoration: none;
     margin: 0 20px 0 0;
     padding: 2px 2px
@@ -85,8 +87,7 @@ h3 {
 }
 
 section p a {
-    color: rgb(101, 132, 189);
-    text-decoration: none;
+    color: black;
 }
 
 section p a:hover {
@@ -95,7 +96,7 @@ section p a:hover {
 }
 
 a:visited {
-    color: #b5838d;
+    color: red;
 }
 
 #contact img {
